@@ -13,6 +13,10 @@
   "files": [
     "dist/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjaminkent/english-springer"
+  },
   "devDependencies": {
     "bili": "^4.8.1",
     "rollup-plugin-vue": "^5.1.2",
