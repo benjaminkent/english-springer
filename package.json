@@ -1,0 +1,21 @@
+{
+  "name": "english-springer",
+  "version": "1.0.0",
+  "description": "A component that gets a random image of an English Springer Spaniel",
+  "main": "./dist/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "vue serve src/EnglishSpringer.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "author": "Benjamin Jehl",
+  "license": "MIT",
+  "files": [
+    "dist/*"
+  ],
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
